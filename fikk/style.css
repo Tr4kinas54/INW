@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+}
+.box{
+    background-color: aquamarine;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 24px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.hidden img{
+    display: none;
+}
+.matched{
+    width: 101%;
+    box-shadow: 0 0 0  2px greenyellow;
+}
